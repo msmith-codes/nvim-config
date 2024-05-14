@@ -6,7 +6,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
         "https://github.com/folke/lazy.nvim.git",
         "--branch=stable",
         lazypath
-    })    
+    })
 end
 vim.opt.rtp:prepend(lazypath)
 local plugins = {
@@ -15,12 +15,10 @@ local plugins = {
     -- TREESITTER
     {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
     {"nvim-treesitter/playground"},
-    
     -- MUST HAVE
     --{"ThePrimeagen/harpoon", branch = "harpoon", dependencies = { "nvim-lua/plenary.nvim" } },
     {"mbbill/undotree"},
     {"tpope/vim-fugitive"},
-    
     -- LSP-AERO
     {'williamboman/mason.nvim'},
     {'williamboman/mason-lspconfig.nvim'},
@@ -29,7 +27,8 @@ local plugins = {
     {'hrsh7th/cmp-nvim-lsp'},
     {'hrsh7th/nvim-cmp'},
     {'L3MON4D3/LuaSnip'},
-    {'numToStr/FTerm.nvim'}
+    {'numToStr/FTerm.nvim'},
+    {'lommix/godot.nvim'}
 }
 
 
