@@ -4,7 +4,10 @@ local keyset = vim.keymap.set
 vim.g.mapleader = " "
 
 -- Remapping:
-keyset("n", "<leader>q", vim.cmd.Ex)
+-- keyset("n", "<leader>q", vim.cmd.Ex)
+vim.api.nvim_set_keymap('n', '<C-h>', '<C-w>h', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<C-l>', '<C-w>l', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<C-w>', '<C-w>w', { noremap = true, silent = true })
 
 -- Line Numbers:
 vim.wo.number = true
@@ -21,5 +24,7 @@ vim.o.expandtab = true
 vim.o.autoindent = true
 vim.o.smartindent = true
 vim.o.softtabstop = 4
-vim.o.list = true
+vim.o.list = false
 vim.o.listchars = "tab:→ "
+
+
