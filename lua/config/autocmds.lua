@@ -1,4 +1,4 @@
--- File Specific Settings
+
 vim.api.nvim_create_autocmd("BufEnter", {
     pattern = { "*.yml", "*.yaml" },
     callback = function()
