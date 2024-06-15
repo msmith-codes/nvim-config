@@ -58,4 +58,4 @@ require('lspconfig').gdshader_lsp.setup({})
 
 -- Lua:
 require('lspconfig').lua_ls.setup({})
-require('lspconfig').uau_lsp.setup({})
+require('lspconfig').luau_lsp.setup({})
