@@ -1,4 +1,5 @@
-# macOS ignores:
+# macOS Ignores:
 .DS_Store
 
+# NVIM Ignores:
 lazy-lock.json
