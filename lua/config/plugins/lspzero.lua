@@ -57,5 +57,5 @@ require('lspconfig').gdscript.setup({})
 require('lspconfig').gdshader_lsp.setup({})
 
 -- Lua:
-require('lspconfig').lua_ls.setup({})
-require('lspconfig').luau_lsp.setup({})
+--require('lspconfig').lua_ls.setup({})
+--require('lspconfig').luau_lsp.setup({})
