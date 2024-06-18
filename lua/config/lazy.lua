@@ -18,4 +18,4 @@ require("lazy").setup("plugins")
 -- Configure Plugins:
 require("config.plugins.colors")
 require("config.plugins.lspzero")
-
+require("config.plugins.harpoon")
