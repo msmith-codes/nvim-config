@@ -17,7 +17,8 @@ require("lazy").setup("plugins")
 
 -- Configure Plugins:
 require("config.plugins.colors")
-require("config.plugins.lspzero")
+require("config.plugins.fterm")
 require("config.plugins.harpoon")
+require("config.plugins.lspzero")
 require("config.plugins.neotree")
 require("config.plugins.fterm")
