@@ -1,5 +1,3 @@
 return {
-    { 
-        "numToStr/FTerm.nvim"
-    }
+    { "numToStr/FTerm.nvim" }
 }
