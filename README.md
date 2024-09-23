@@ -21,13 +21,14 @@
 </p>
 
 # Using My Configuration
-| Key | Description |
-| --- | ----------- |
-| `i` | Switches to Insert Mode |
-| `v` | Switches to Visual Mode |
-| `ESC` | Switches to Normal Mode |
-| `C-\` | Switches to Terminal Mode |
-| `C-h` | Switches to File Explorer |
+| Key | Mode | Description |
+| --- | ---- |----------- |
+| `i` | `N/A`  | Switches to Insert Mode |
+| `v` | `N/A` | Switches to Visual Mode |
+| `ESC` | `N/A` | Switches to Normal Mode |
+| `C-\` | `N/A` | Switches to Terminal Mode |
+| `C-h` | `Normal` | Switches to File Explorer |
+| `<leader>x`|  `Normal` | Closes the current buffer |
 
 # Cloning:
 

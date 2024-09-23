@@ -35,9 +35,12 @@ require("bufferline").setup{
 
 vim.keymap.set("n", "<leader>x", 
     function()
-        -- Check if the buffer is not the file explorer
-        if vim.api.nvim_buf_get_option(vim.api.nvim_get_current_buf(), "filetype") ~= "neo-tree" then 
-            vim.cmd(":bdelete! " .. vim.api.nvim_get_current_buf()) 
+        local buf = vim.api.nvim_get_current_buf()
+        if vim.api.nvim_buf_get_option(buf, "filetype") ~= "neo-tree" then 
+            if vim.api.nvim_buf_get_option(buf, "buflisted") then
+                vim.cmd("BufferLineCycleNext")
+                vim.cmd("bdelete " .. buf)
+            end
         end
     end, 
     { noremap = true, silent = true }
