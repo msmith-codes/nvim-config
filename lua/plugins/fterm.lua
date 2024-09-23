@@ -1,3 +1,3 @@
 return {
-    { "numToStr/FTerm.nvim" }
+  {'akinsho/toggleterm.nvim', version = "*", config = true}
 }

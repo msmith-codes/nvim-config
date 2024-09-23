@@ -21,3 +21,4 @@ function lsp.protocol.make_client_capabilities()
 
     return caps
 end
+
