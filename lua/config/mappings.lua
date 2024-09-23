@@ -1,7 +1,5 @@
 vim.g.mapleader = " "
 
-vim.keymap.set("n", "<leader>q", ":Ex<CR>", { noremap = true, silent = true })
-
 local go_err = "if err != nil {\n\t\n}"
 
 function insertAtCursor()
