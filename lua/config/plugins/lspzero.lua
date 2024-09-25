@@ -47,15 +47,10 @@ require('lspconfig').cmake.setup({
 })
 
 -- TypeScript
-require('lspconfig').tsserver.setup({})
-require('lspconfig').angularls.setup({})
+require('lspconfig').ts_ls.setup({})
 
 -- GoLang:
 require('lspconfig').gopls.setup({})
-
--- Godot:
-require('lspconfig').gdscript.setup({})
-require('lspconfig').gdshader_lsp.setup({})
 
 -- Haskell:
 require('lspconfig').hls.setup({})

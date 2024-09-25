@@ -4,7 +4,7 @@ require('neo-tree').setup {
             hide_dotfiles = false,
             hide_gitignored = false,
         },
-        follow_current_file = true,
+        follow_current_file = { enabled = true },
     },
     window = {
         position = "left",
