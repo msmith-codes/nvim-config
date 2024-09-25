@@ -54,3 +54,8 @@ require('lspconfig').gopls.setup({})
 
 -- Haskell:
 require('lspconfig').hls.setup({})
+
+-- JSON:
+require('lspconfig').jsonls.setup({
+    filetypes = { "json", "mcmeta" }
+})
