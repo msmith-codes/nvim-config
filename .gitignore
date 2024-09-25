@@ -1,5 +1,5 @@
 # macOS Ignores:
 .DS_Store
 
-# neovim Ignores:
+# NeoVIM Ignores:
 lazy-lock.json
