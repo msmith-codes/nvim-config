@@ -33,7 +33,7 @@ require("bufferline").setup{
     }
 }
 
-vim.keymap.set("n", "<leader>x", 
+vim.keymap.set("n", "<leader>q", 
     function()
         local buf = vim.api.nvim_get_current_buf()
         if vim.api.nvim_buf_get_option(buf, "filetype") ~= "neo-tree" then 
