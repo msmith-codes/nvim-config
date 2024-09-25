@@ -31,6 +31,7 @@
 | `<leader>q`|  `Normal` | Closes the current file buffer |
 | `C-d` | `Normal` | Closes the selected buffer |
 | `C-s` | `Normal` | Saves the current file |
+| `C-n` | `Normal` | Toggles the file explorer |
 
 # Cloning:
 
