@@ -57,6 +57,5 @@ require('lspconfig').gopls.setup({})
 require('lspconfig').gdscript.setup({})
 require('lspconfig').gdshader_lsp.setup({})
 
--- Lua:
---require('lspconfig').lua_ls.setup({})
---require('lspconfig').luau_lsp.setup({})
+-- Haskell:
+require('lspconfig').hls.setup({})
