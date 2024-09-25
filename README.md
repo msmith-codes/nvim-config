@@ -28,7 +28,9 @@
 | `ESC` | `N/A` | Switches to Normal Mode |
 | `C-\` | `N/A` | Switches to Terminal Mode |
 | `C-h` | `Normal` | Switches to File Explorer |
-| `<leader>x`|  `Normal` | Closes the current buffer |
+| `<leader>q`|  `Normal` | Closes the current file buffer |
+| `C-d` | `Normal` | Closes the selected buffer |
+| `C-s` | `Normal` | Saves the current file |
 
 # Cloning:
 
