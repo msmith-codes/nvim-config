@@ -46,9 +46,6 @@ require('lspconfig').cmake.setup({
     filetypes = { "cmake", "CMakeLists.txt" }
 })
 
--- TypeScript
-require('lspconfig').ts_ls.setup({})
-
 -- GoLang:
 require('lspconfig').gopls.setup({})
 

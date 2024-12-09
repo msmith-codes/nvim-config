@@ -1,6 +1,6 @@
 -- Configure Colors:
 vim.o.background = "dark" -- or "light" for light mode
-vim.cmd([[colorscheme catppuccin]])
+vim.cmd([[colorscheme onedark]])
 
 -- Set Color Scheme command:
 vim.api.nvim_create_user_command("ColorsSetDark", function()

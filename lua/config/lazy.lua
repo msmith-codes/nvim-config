@@ -24,5 +24,6 @@ require("config.plugins.fterm")
 require("config.plugins.lspzero")
 require("config.plugins.neotree")
 
-
 vim.opt.laststatus = 3
+
+
